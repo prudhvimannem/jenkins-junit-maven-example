@@ -59,7 +59,7 @@ public class CalculatorTest {
 	public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
 
-		assertFalse(result);
+		assertTrue(result);
 	}
 
 	//@Ignore
@@ -67,6 +67,6 @@ public class CalculatorTest {
 	public void testSubstraction() {
 		int result = 10 - 3;
 
-		assertTrue(result == 9);
+		assertTrue(result == 7);
 	}
 }
